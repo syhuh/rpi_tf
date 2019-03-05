@@ -12,7 +12,9 @@ cat rpi.tar* | tar xvf -
 mkvirtualenv tf -p python2
 
 workon tf
+
 pip freeze 
+
 pip install tensorflow-1.13.1-cp27-none-linux_armv7l.whl 
 (You don't need to install numpy etc. before this action)
 
